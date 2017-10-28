@@ -1,0 +1,270 @@
+body{
+    background-image:url('../images/background.png');
+    background-attachment: all;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+body{
+  font-family:Times, Times New Roman, serif;
+}
+h2{
+  color: #56071f;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Times, Times New Roman, serif;
+  margin-bottom: 15px;
+}
+h3{
+  color: #56071f;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Times, Times New Roman, serif;
+  margin-bottom: 15px;
+}
+hr{
+  height: 5px;
+  background-color: #DDDDDD;
+  border: none;
+}
+nav{
+  height: 75px;
+  border-bottom: solid 5px #DDDDDD;
+  width: 100%;
+  background-color: white;
+
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.nav-container{
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+#your-name{
+  float: left;
+  padding: 14px 40px;
+  width: 150px;
+  font-size: 36px;
+  font-family: Times, Times New Roman, serif;
+  font-weight: bold;
+  position: relative;
+  background-color: #56071f;
+  color: white;
+}
+.navbar-menu{
+    float: right;
+    padding: 0px 10px;
+    margin: 28px 0;
+    font-size: 18px;
+    color: #56071f;
+    border-right: solid 2px #DDDDDD;
+}
+.no-border{
+  border: none;
+}
+#main-section{
+  float: left;
+  width: 650px;
+  margin: 30px 20px 0px 0px;
+  padding: 20px 10px;
+  border: solid 1px #DDDDDD;
+  background-color: white;
+}
+#main-section img{
+  width: 240px;
+  float: right;
+  padding: 0px 10px 10px 0px;
+}
+.main-container{
+  float: right;
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+#name{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+}
+#message{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+  height: 140px;
+}
+#email{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+}
+
+#submit{
+  background-color: #eae3e5;
+  color: white;
+  padding: 8px;
+  margin: 5px 0px;
+  font-size: 18px;
+  width: 100px;
+}
+#connect{
+  float: right;
+  width: 240px;
+  margin: 20px 0px 0px 0px;
+  padding: 15px;
+  border: transparent; 1px #DDDDDD;
+  background-color: white;
+}
+#connect img{
+  width: 60px;
+  margin: 10px 2px;
+}
+footer{
+  padding: 25px;
+  position: absolute;
+  bottom: 0px;
+  background-color: #56071f;
+  color: white;
+  border-top: solid 5px #eae3e5;
+  clear: both;
+  text-align: center;
+  width: 100%;
+
+
+
+
+}
+@media screen and (max-width: 980px) {
+  
+  .container {
+    max-width: 90%;
+  }
+  
+  .main-section{
+    float: left;
+    max-width: calc(100% - 310px);
+    padding: 30px;
+    margin: 0 40px 40px 0;
+  }
+  
+  .work{
+    width: 100%;
+  }
+  
+  .sidebar{
+    float: right;
+    width: 100%;
+    max-width: 275px;
+  }
+  
+  .auth-image {
+    float: none;
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  .container {
+    max-width: 90%;
+  }
+  
+  .main-section{
+    float: left;
+    max-width: 100%;
+    padding: 25px;
+    margin: 0 40px 40px 0;
+  }
+  
+  .work{
+    width: 45%;
+  }
+  
+  .sidebar{
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 660px) {
+  
+  #masthead{
+    position: static;
+    margin: none;
+    padding: none;
+  }
+  #masthead .container{
+    max-width: 100%;
+  }
+  #logo{
+    width: 100%;
+    margin-top: -25px;
+  }
+  
+  nav {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  
+  nav a{
+    padding: 0px 55px;
+    margin: 25px 0;
+  }
+  
+  .container {
+    max-width: 90%;
+  }
+  
+  .main-section{
+    float: left;
+    max-width: 100%;
+    padding: 25px;
+    margin-top: -100px;
+  }
+  
+  .work{
+    width: 100%;
+  }
+  
+  .sidebar{
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .social {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+  .auth-image {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+}
